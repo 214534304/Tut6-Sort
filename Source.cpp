@@ -58,4 +58,5 @@ int main(){
 		for (i = 0; i < Size3; i++)
 			cout << name[i] << " ";
 		cout << endl;
+
 }
