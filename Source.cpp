@@ -23,6 +23,8 @@ void sort(T Array[], int count){               //buble sorting array in decendin
 
 
 int main(){
+	int i;
+
 	// Size of the array
 	int Size1 = 4;
 	int Size2 = 5;
@@ -32,4 +34,15 @@ int main(){
 	int A[] = { 2, 4, 6, 8 };
 	double B[] = { 1.20, 3.40, 5.60, 7.80, 4.55 };
 	char name[] = "Ntuthuko";
+
+    //calling sorting the array of integer from High to Low
+	sort(A, Size1);
+
+	//display the array of integers
+	for (i = 0; i < Size1; i++)
+		cout << A[i] << " ";
+	    cout << endl;
+
+
+
 }
